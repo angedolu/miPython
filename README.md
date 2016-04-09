@@ -1,0 +1,2 @@
+# miPython
+Trucos de programador.
