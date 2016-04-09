@@ -1,0 +1,66 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# -*- coding: cp-1252 -*-
+\n significa nueva línea
+
+print(r'C:\algun\nombre') # OJO la r antes de la comilla
+
+class Complejo:
+def __init__(self, partereal, parteimaginaria):
+self.r = partereal
+self.i = parteimaginaria
+
+
+instalado pythoncard para hacer guis....donde esta?
+
+statusbar
+
+SetStatusText("texto", int i = 0) 0 primer campo
+---
+
+...
+target	=	today	+	os.sep	+	now	+	'.zip'
+...
+class	Person:
+	def	__init__(self,	name):
+		self.name= name
+	def	say_hi(self):
+		print('Hello, my name is', self.name)
+...
+# -*- coding: iso-8859-15 -*-
+moneda = u"€"
+print ord(moneda)
+---
+hola = "Esta es una larga cadena que contiene\n\
+varias líneas de texto, tal y como se hace en C.\n\
+Notar que los espacios en blanco al principio de la linea\
+son significantes."
+---
+>>> import re
+>>> re.findall(r'\bt[a-z]*', 'tres felices tigres comen trigo')
+['tres', 'tigres', 'trigo']
+>>> re.sub(r'(\b[a-z]+) \1', r'\1', 'gato en el el sombrero')
+'gato en el sombrero'
+---
+usr/share/icons/hicolor/scalable/apps
+...
+operaciones con cadenas:
+x in s
+x not in s
+s + t
+s * n, n * s
+s[i]
+s[i:j]
+s[i:j:k]
+len(s)
+min(s)
+max(s)
+s.index(x)
+s.count(x)
+---
+file:///home/antonio/Documentos/Manuales/Python/python-2.7.11-docs-html/library/stdtypes.html
+capitulo 5-Builtins types.
+---
+
+
+
